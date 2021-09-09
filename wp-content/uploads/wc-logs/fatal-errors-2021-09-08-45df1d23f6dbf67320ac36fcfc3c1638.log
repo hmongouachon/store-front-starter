@@ -1,0 +1,37 @@
+2021-09-08T15:46:57+00:00 CRITICAL syntax error, unexpected '{', expecting '(' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 82
+
+2021-09-08T15:47:44+00:00 CRITICAL syntax error, unexpected ';', expecting ')' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 92
+
+2021-09-08T15:47:46+00:00 CRITICAL syntax error, unexpected ';', expecting ')' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 92
+
+2021-09-08T15:48:09+00:00 CRITICAL syntax error, unexpected ';', expecting ')' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 91
+
+2021-09-08T15:48:30+00:00 CRITICAL syntax error, unexpected '$checkout' (T_VARIABLE), expecting ')' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 92
+
+2021-09-08T15:49:01+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_for_field() in C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php:84
+Stack trace:
+#0 C:\wamp64\www\dixeed\wp-includes\class-wp-hook.php(303): custom_checkout_field(Object(WC_Checkout))
+#1 C:\wamp64\www\dixeed\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\dixeed\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\dixeed\wp-content\plugins\woocommerce\templates\checkout\form-shipping.php(69): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 C:\wamp64\www\dixeed\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\wamp64\\www\\d...')
+#5 C:\wamp64\www\dixeed\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(301): wc_get_template('checkout/form-s...', Array)
+#6 C:\wamp64\www\dixeed\wp-includes\class-wp-hook.php(303): WC_Checkout->checkout_form_shipping('')
+#7 C:\wamp64\www\dixeed\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 84
+
+2021-09-08T16:55:16+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) dans C:\wamp64\www\dixeed\wp-content\plugins\custom-plugin\index.php à la ligne 68
+
+2021-09-08T16:55:20+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) dans C:\wamp64\www\dixeed\wp-content\plugins\custom-plugin\index.php à la ligne 68
+
+2021-09-08T16:55:20+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) dans C:\wamp64\www\dixeed\wp-content\plugins\custom-plugin\index.php à la ligne 68
+
+2021-09-08T19:59:50+00:00 CRITICAL syntax error, unexpected end of file dans C:\wamp64\www\dixeed\wp-content\themes\storefront\template-form.php à la ligne 52
+
+2021-09-08T20:53:40+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT), expecting ',' or ';' dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 136
+
+2021-09-08T21:14:19+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 144
+
+2021-09-08T21:14:23+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 144
+
+2021-09-08T21:14:33+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) dans C:\wamp64\www\dixeed\wp-content\themes\storefront\functions.php à la ligne 144
+
